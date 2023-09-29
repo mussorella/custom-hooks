@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { todoReduce } from '../08-useReducer/todoReduce';
+import { todoReduce } from './todoReduce';
 
 const init = () => {
     return JSON.parse(localStorage.getItem('todos')) || [];//esto hace que se guarde la info en el almacen interno, pero sin lo de abajo cuandos e actualiza dse pierde
